@@ -1,0 +1,124 @@
+-- Made by Shako#7960
+
+local ScreenGui = Instance.new("ScreenGui")
+local ShakoGUI = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("TextButton")
+local DomainHub = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local Admin = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local SharkBite = Instance.new("TextButton")
+
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+ShakoGUI.Name = "ShakoGUI"
+ShakoGUI.Parent = ScreenGui
+ShakoGUI.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+ShakoGUI.Position = UDim2.new(0.344005942, 0, 0.371779114, 0)
+ShakoGUI.Size = UDim2.new(0, 418, 0, 239)
+ShakoGUI.Active = true
+ShakoGUI.Draggable = true
+
+TextLabel.Parent = ShakoGUI
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Size = UDim2.new(0, 418, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Shako"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = ShakoGUI
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.Position = UDim2.new(0, 0, 0.887966812, 0)
+TextLabel_2.Size = UDim2.new(0, 418, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made by Shako#7960"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = ShakoGUI
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+InfiniteYield.BorderColor3 = Color3.fromRGB(170, 0, 127)
+InfiniteYield.Position = UDim2.new(0, 0, 0.126760557, 0)
+InfiniteYield.Size = UDim2.new(0, 209, 0, 69)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+DomainHub.Name = "DomainHub"
+DomainHub.Parent = ShakoGUI
+DomainHub.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+DomainHub.Position = UDim2.new(0.5, 0, 0.126760557, 0)
+DomainHub.Size = UDim2.new(0, 209, 0, 69)
+DomainHub.Font = Enum.Font.SourceSans
+DomainHub.Text = "DomainHub"
+DomainHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DomainHub.TextSize = 14.000
+DomainHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexsoftworks/DomainX/main/source',true))()
+end)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = ShakoGUI
+DarkHub.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+DarkHub.Position = UDim2.new(0, 0, 0.409210443, 0)
+DarkHub.Size = UDim2.new(0, 209, 0, 59)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextSize = 14.000
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
+end)
+Admin.Name = "Admin"
+Admin.Parent = ShakoGUI
+Admin.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+Admin.Position = UDim2.new(0.5, 0, 0.409210443, 0)
+Admin.Size = UDim2.new(0, 209, 0, 59)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Admin ( PrisonLife)"
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 14.000
+Admin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua",true))()
+end)
+
+OwlHub.Name = "Owl Hub"
+OwlHub.Parent = ShakoGUI
+OwlHub.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+OwlHub.Position = UDim2.new(0.5, 0, 0.653556049, 0)
+OwlHub.Size = UDim2.new(0, 209, 0, 57)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.TextSize = 14.000
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+SharkBite.Name = "Shark Bite"
+SharkBite.Parent = ShakoGUI
+SharkBite.BackgroundColor3 = Color3.fromRGB(170, 0, 127)
+SharkBite.Position = UDim2.new(0, 0, 0.653556168, 0)
+SharkBite.Size = UDim2.new(0, 209, 0, 57)
+SharkBite.Font = Enum.Font.SourceSans
+SharkBite.Text = "Shark Bite"
+SharkBite.TextColor3 = Color3.fromRGB(0, 0, 0)
+SharkBite.TextSize = 14.000
+SharkBite.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/SharkBite.lua",true))()
+end)
